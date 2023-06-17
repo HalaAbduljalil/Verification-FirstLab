@@ -1,0 +1,120 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                0.16647601639851928,
+                0.057678,
+                0.024438999999999999,
+                172544,
+                185644,
+                1666621202.883353
+            ],
+            "end_perf": [
+                0.17219801631290466,
+                0.058160000000000003,
+                0.026615,
+                173480,
+                185644
+            ],
+            "nQuads": 0,
+            "nMops": 0
+        },
+        "std": {
+            "Compiled Times": 10,
+            "start_perf": [
+                0.1723310163943097,
+                0.058244999999999998,
+                0.026654000000000001,
+                173480,
+                185644,
+                1666621202.8892081
+            ],
+            "nMops": 449,
+            "Compiled": "Yes",
+            "end_perf": [
+                0.17615901632234454,
+                0.061122999999999997,
+                0.027604,
+                173624,
+                185644
+            ],
+            "nQuads": 213
+        },
+        "Vector": {
+            "Compiled Times": 10,
+            "start_perf": [
+                0.17623401631135494,
+                0.061175,
+                0.027626999999999999,
+                173624,
+                185644,
+                1666621202.893111
+            ],
+            "nMops": 572,
+            "Compiled": "Yes",
+            "end_perf": [
+                0.18620801635552198,
+                0.070118,
+                0.028639000000000001,
+                176336,
+                185644
+            ],
+            "nQuads": 226
+        }
+    },
+    "CompUnits": {
+        "eDJGh_d": {
+            "mod": "Vector",
+            "mode": 4,
+            "out": "eDJGh_d.o",
+            "checksum": 0,
+            "bytes": 18200,
+            "archive": "archive.9/_23140_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 60234,
+            "archive": "archive.9/_23140_archive_1.a",
+            "objects": [
+                [
+                    "eDJGh_d.o",
+                    18200
+                ],
+                [
+                    "amcQwB.o",
+                    42034
+                ]
+            ]
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "stat": {
+        "ru_self_end": {
+            "ru_maxrss_kb": 57764,
+            "ru_utime_sec": 0.072776999999999994,
+            "ru_stime_sec": 0.030487,
+            "ru_nivcsw": 35,
+            "ru_minflt": 18917,
+            "ru_majflt": 0,
+            "ru_nvcsw": 30
+        },
+        "ru_childs_end": {
+            "ru_maxrss_kb": 13592,
+            "ru_utime_sec": 0.0010200000000000001,
+            "ru_stime_sec": 0.0020400000000000001,
+            "ru_nivcsw": 2,
+            "ru_minflt": 585,
+            "ru_majflt": 0,
+            "ru_nvcsw": 1
+        },
+        "peak_mem_kb": 185644
+    }
+}

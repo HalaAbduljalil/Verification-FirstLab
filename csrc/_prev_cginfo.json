@@ -1,0 +1,132 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "Vector": {
+            "eDJGh_d": {
+                "bytes": 12510,
+                "mod": "Vector",
+                "out": "eDJGh_d.o",
+                "archive": "archive.8/_20486_archive_1.a",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 21090,
+                "mod": "std",
+                "archive": "archive.8/_prev_archive_1.a",
+                "mode": 4,
+                "checksum": 0,
+                "out": "reYIK_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 4736,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "Vector": [
+            "Vector",
+            "eDJGh",
+            "module",
+            2
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "CurCompileUdps": {},
+    "CompileProcesses": [
+        "cgproc.20486.json"
+    ],
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 40762,
+        "archive": "archive.8/_20486_archive_1.a"
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.039856000000000003,
+            "ru_minflt": 17102,
+            "ru_stime_sec": 0.024910000000000002,
+            "ru_maxrss_kb": 52464,
+            "ru_nivcsw": 31,
+            "ru_majflt": 0,
+            "ru_nvcsw": 28
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.00075000000000000002,
+            "ru_minflt": 585,
+            "ru_stime_sec": 0.0015,
+            "ru_maxrss_kb": 13348,
+            "ru_nivcsw": 2,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0,
+            "ru_majflt": 0,
+            "ru_nvcsw": 0
+        },
+        "totalObjSize": 53028,
+        "mopSpeed": 54904.955872369334,
+        "outputSizePerQuad": 157.35311572700297,
+        "nMops": 647,
+        "quadSpeed": 28598.099117447397,
+        "nQuads": 337,
+        "mop/quad": 1.9198813056379822,
+        "ru_self_end": {
+            "ru_utime_sec": 0.051639999999999998,
+            "ru_minflt": 18751,
+            "ru_stime_sec": 0.026332000000000001,
+            "ru_maxrss_kb": 57552,
+            "ru_nivcsw": 35,
+            "ru_majflt": 0,
+            "ru_nvcsw": 29
+        },
+        "Frontend(%)": 77.18048024786988,
+        "CodeGen(%)": 22.819519752130123,
+        "peak_mem_kb": 185708
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "Vector",
+        "Vector"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "Misc": {
+        "daidir_abs": "/home/Hala/VLSI_verification/LABS/Lab02/simv.daidir",
+        "cwd": "/home/Hala/VLSI_verification/LABS/Lab02",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/home/Hala/VLSI_verification/LABS/Lab02/csrc",
+        "archive_dir": "archive.8"
+    },
+    "CompileStatus": "Successful"
+}
